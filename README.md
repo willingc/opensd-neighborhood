@@ -1,8 +1,9 @@
 #Open San Diego "My Neighborhood: Learning, Building, and Sharing"
 
 
-The presentation is an overview of Project Jupyter and its importance to
-mentoring and education.
+The presentation is an overview of Open Source and the importance of
+welcoming community and tools to support it.
+
 A reveal.js presentation for August 18, 2015 event.
 
 
