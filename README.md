@@ -1,15 +1,15 @@
-#Qualcomm EmpowHERment Workshop Presentation
+#Open San Diego "My Neighborhood: Learning, Building, and Sharing"
 
 
 The presentation is an overview of Project Jupyter and its importance to
 mentoring and education.
-A reveal.js presentation for July 2015 event.
+A reveal.js presentation for August 18, 2015 event.
 
 
 ##Presentation
-[Journey to Jupyter](https://willingc.github.io/qcomm-presentation/index.html)
+[My Neighborhood](https://willingc.github.io/opensd-neighborhood/index.html)
 
-[Presentation source code](https://github.com/willingc/qcomm-presentation/tree/gh-pages)
+[Presentation source code](https://github.com/willingc/opensd-neighborhood/tree/gh-pages)
 
 ##Technical Links
 
