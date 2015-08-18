@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>My Neighborhood</title>
+
+		<meta name="description" content="My Neighborhood. Learning, building, and sharing.">
+		<meta name="author" content="Carol Willing">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple_cnw.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-background="media/ice.jpg"><!--- slide -->
+					<h1 style="color:white">Welcome</h1>
+				</section>
+
+				<section><!--- slide -->
+					<h1>My Neighborhood</h1>
+					<h3>Learning, Building, Sharing</h3>
+					<img src="media/fablablogo.png" width="200px">
+					<p>Open San Diego</p>
+					<p>August 17, 2015</p>
+				</section>
+
+				<section data-background="media/sdmap.png"><!--- slide -->
+					<h2>Life happens here.</h2>
+				</section>
+
+				<section><!--- slide -->
+					<h3>Carol Willing</h3>
+					<p>Geek-in-Residence, FabLab San Diego</p>
+					<img src="media/fablablogo.png" width="200px" >
+					<p>Director, Python Software Foundation</p>
+					<img src="media/psf.png" width="200px" >
+					<p>Developer, Willing Consulting</p>
+				</section>
+
+				<section><!--- slide -->
+				<h4>Programming a basic website</h4>
+					 <pre><code>
+# "A quick website to say welcome"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def welcome():
+    return "Welcome to Open San Diego"
+
+if __name__ == "__main__":
+    app.run()
+					 </code></pre>
+				</section>
+
+				<section><!--- slide -->
+				<h2>Serving your community</h2>
+					 <pre><code >
+# "A quick website to say welcome"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def welcome():
+    message_today = "Too hot? Visit http://www.211sandiego.org for cool zones."
+    return "Welcome to Open San Diego. " + message_today
+
+if __name__ == "__main__":
+    app.run()
+					 </code></pre>
+				</section>
+
+				<section><!--- slide -->
+				    <h2>I want</h2>
+						<h2>???</h2>
+						<h3>in San Diego</h3>
+				</section>
+
+				<section data-background="media/glass.jpg"><!--- slide -->
+				<h2 style="color:white">Learning. Building. Sharing.</h2>
+				</section>
+
+				<section><!--- slide -->
+						<h2>Who?</h2>
+						<h3>Magic internet pixies</h3>
+						<h3>Rockstar programmers</h3>
+						<h3>Unicorns</b>
+				</section>
+
+				<section data-background="media/Nov14_01.jpg"><!--- slide -->
+						<h2 style="color:white">Um...no</h2>
+				</section>
+
+				<section data-background="media/sufjan.png"><!--- slide -->
+				<h2>..................You</h2>
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h2>Code for America</h2>
+				People &#x1f305
+				Participation &#x1f305
+				Plans &#x1f305
+				Partnerships
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h4>People</h4>
+				<h2>Remember the tortoise!</h2>
+				<img src="media/python_sd_workshop_1.JPG" width="800px">
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h4>People</h4>
+				<h2>Code of Conduct</h2>
+				<h3>Prominently displayed</h3>
+				<h3>Every event and website</h3>
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h4>People</h4>
+				<li>No feigning surprise</li>
+				<li>No well-actuallys</li>
+				<li>No back-seat driving</li>
+				<li>No subtle -isms</li>
+				<h3><a href="https://www.recurse.com/manual">Recurse Center</a></h3>
+        </section>
+
+				<section id="slideshoe" data-background="media/Puke_pumpkin.JPG"><!--- slide -->
+				<h4>Participation</h4>
+				<div id="myright">
+				<h2>Jargon</h2>
+				<h2>and ego</h2>
+				<br>
+				<br>
+				<h3 style="color:white">I am Wile E. Coyote, super genius</h3>
+			  </div>
+				<!--Photo credit: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Puke_pumpkin_k%C3%BCrbis_halloween2.JPG/640px-Puke_pumpkin_k%C3%BCrbis_halloween2.JPG-->
+				</section>
+
+				<section><!--- slide -->
+				<h4>Participation</h4>
+				<h3>Fun and Creative</h3>
+				<img src="media/fablabsd.JPG" width="800px">
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h4>Planning</h4>
+				<h2>"Many hands" motto</h2>
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h4>Planning</h4>
+				<h2>Be visible.</h2>
+				<h3>Encourage gently. User groups.</h3>
+				<h3>Every contribution is a valuable one.</h3>
+				<h3>Say thank you and publicly recognize contributors.</h3>
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h4>Partnerships</h4>
+				<h2>Be bold.</h2>
+				<h3>Move beyond "It's always been done that way."</h3>
+				<h3>Challenge self doubts "I'm too ..." and "I can't..."</h3>
+				<h3>Seek input from those directly served.</h3>
+				</section>
+
+				<section data-background=""><!--- slide -->
+				<h4>Partnerships</h4>
+				<h2>Small projects grow into larger successes.</h2>
+				<h3>Listen. Really listen.</h3>
+				<h3>Respect the time of others.</h3>
+				<h3>Life happens. On ramps and off ramps.</h3>
+				<h3>Be humble. Remember the project's goal.</h3>
+				</section>
+
+				<section data-background="media/heatseek.png"><!--- slide -->
+				</section>
+
+				<section><!--- slide -->
+				    <h2>Communicate.</h2>
+						<h2>Automate the things.</h2>
+						<h2>Create flow.</h2>
+				</section>
+
+        <section data-background="media/talktocomputers.jpg">
+				</section>
+
+				<section><!--- slide -->
+					<h2>How do we talk to people?</h2>
+					<h3>Communication tools</h3>
+					<p>IRC, Discourse, Slack, email, social media, group chats, meetings</p>
+					<h3>Use what works. <a href="https://pages.18f.gov/guides/">18F Guides</a></h3>
+					<h3>Tone matters. <a href="http://voiceandtone.com/">Voice & Tone</a></h3>
+					<p>In-person conversation and phone calls underused</p>
+				</section>
+
+				<section><!--- slide -->
+				<h2>Automate the things.</h2>
+				<h3>Testing and CI/CD (Continuous Integration/Continuous Deployment)</h3>
+				<p>Jenkins, Travis, Coverage, CircleCI</p>
+				<h3>Use version control software. Transparency.</h3>
+				<p>GitHub, Bitbucket, GitLab</p>
+				</section>
+
+				<section data-background="media/travis.png"><!--- slide -->
+					<h2 style="color:white">Samples</h2>
+					<img src="media/codecovio.png" width="500px">
+				</section>
+
+				<section data-background="media/cookiecutter.png"><!--- slide -->
+					<div id="cookies">
+						<h4 align="right"><a href="https://github.com/audreyr/cookiecutter">by Audrey Roy</a></h4>
+					</div>
+				</section>
+
+				<section data-background="media/hourofcode.jpg"><!--- slide -->
+					<h2 style="color:white">Interact and engage</h2>
+					<p style="color:white">Hour of Code 2014</p>
+				</section>
+
+				<section data-background="media/teenfablab.jpg"><!--- slide -->
+					<h2 style="color:white">Empower</h2>
+					<img src="media/teenfablab.jpg" width="250px">
+					<p style="color:white">National Day of Civic Hacking 2015</p>
+				</section>
+
+				<section><!--- slide -->
+					<h2>Change</h2>
+					<img src="media/groupPhoto.JPG" width="1000px">
+					<h4><a href="http://sandiegohackathon.org/">San Diego Womens' Hackathon</a></h4>
+					<p>Bone health and Water conservation projects</p>
+				</section>
+
+
+				<section><!--- slide -->
+				    <h2>Ways to learn more...</h2>
+				    <h3>Join <a href="http://opensandiego.org">Open San Diego</a></h3>
+				    <h3>Get involved</h3>
+				    <h3>User groups like <a href="http://pythonsd.org">San Diego Python</a></h3>
+						<p>SD Javascript, SD Ruby, GeekGirl, GirlDevelopIt, DjangoGirls and more</p>
+				    <h3>Community spaces like <a href="http://fablabsd.org">Fab Lab San Diego</a></h3>
+				    <h3>Ask questions</h3>
+				</section>
+
+				<section data-background=""><!--- slide -->
+					<h3>I want learning, building, and sharing in my San Diego neighborhood</h3>
+					<img src="media/itsuptous.png" width="600px">
+					<h3>to increase access to community mental health resources.</h3>
+				</section>
+
+				<section><!--- slide -->
+				    <h2>Thank you</h2>
+
+				    <h4>Presentation: <a href="http://bit.ly/empowher-jupyter">http://bit.ly/empowher-jupyter</a></h4>
+				    <h4>Source code: <a href="http://bit.ly/empowher-source">http://bit.ly/empowher-source</a></h4>
+				</section>
+
+				<section data-background="media/2015_02_06_pyladies_cupcake.jpg"><!--- slide -->
+				    <h1>Happy hacking!</h1>
+				</section>
+
+			</div><!-- slides -->
+		</div><!-- reveal -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>
